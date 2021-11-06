@@ -1,4 +1,8 @@
-## Lekcja 1 – Markdown lekki język znaczników 
+# Lekcja 1 – Markdown lekki język znaczników 
+
+
+
+[toc]
 
 ## Wstęp
 
@@ -28,7 +32,7 @@ W tym przypadku mamy np. znacznik np.  opisujący parametry koła i który może
 
 Wszystkie te języki znaczników cechują się rozbudowaną i złożoną składnią i dlatego do ich edycji wymagają najczęściej dedykowanych narzędzi w postaci specjalizowanych edytorów. By wyeliminować powyższą niedogodność powstał **Markdown**  - uproszczony język znaczników służący do formatowania dokumentów tekstowych (bez konieczności używania specjalizowanych narzędzi). Dokumenty w tym formacie można bardzo łatwo konwertować do wielu innych formatów: np. html, pdf, ps (postscript), epub, xml i wiele innych. Format ten jest powszechnie używany do tworzenia plików README.md (w projektach open source) i powszechnie obsługiwany przez serwery git’a. Język ten został stworzony w 2004 r. a jego twórcami byli John Gruber i Aaron Swartz. W kolejnych latach podjęto prace w celu stworzenia standardu rozwiązania i tak w 2016 r. opublikowano dokument RFC 7764 który zawiera opis kilku odmian tegoż języka:
 
-* CommonMark,  
+* Common Mark,  
 
 * GitHub Flavored Markdown (GFM),
 
