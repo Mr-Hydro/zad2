@@ -4,11 +4,9 @@
 
 Obecnie powszechnie wykorzystuje się języki ze znacznikami do opisania dodatkowych informacji umieszczanych w plikach tekstowych. Z pośród najbardziej popularnych można wspomnieć o: 
 
-html – służącym do opisu struktury informacji zawartych na stronach internetowych,
-
-Tex (Latex) – poznany na zajęciach język do „profesjonalnego” składania tekstów,
-
-XML (Extensible Markup Language) - uniwersalnym języku znaczników przeznaczonym do reprezentowania różnych danych w ustrukturalizowany sposób.
+1. **html**  – służącym do opisu struktury informacji zawartych na stronach internetowych,
+2. **Tex** (Latex) – poznany na zajęciach język do „profesjonalnego” składania tekstów,
+3. **XML** (Extensible Markup Language) - uniwersalnym języku znaczników przeznaczonym do reprezentowania różnych danych w ustrukturalizowany sposób.
 
 
 
@@ -16,13 +14,15 @@ W tym przypadku mamy np. znacznik np.  opisujący parametry koła i który może
 
 
 
-Wszystkie te języki znaczników cechują się rozbudowaną i złożoną składnią i dlatego do ich edycji wymagają najczęściej dedykowanych narzędzi w postaci specjalizowanych edytorów. By wyeliminować powyższą niedogodność powstał Markdown - uproszczony język znaczników służący do formatowania dokumentów tekstowych (bez konieczności używania specjalizowanych narzędzi). Dokumenty w tym formacie można bardzo łatwo konwertować do wielu innych formatów: np. html, pdf, ps (postscript), epub, xml i wiele innych. Format ten jest powszechnie używany do tworzenia plików README.md (w projektach open source) i powszechnie obsługiwany przez serwery git’a. Język ten został stworzony w 2004 r. a jego twórcami byli John Gruber i Aaron Swartz. W kolejnych latach podjęto prace w celu stworzenia standardu rozwiązania i tak w 2016 r. opublikowano dokument RFC 7764 który zawiera opis kilku odmian tegoż języka:
+Wszystkie te języki znaczników cechują się rozbudowaną i złożoną składnią i dlatego do ich edycji wymagają najczęściej dedykowanych narzędzi w postaci specjalizowanych edytorów. By wyeliminować powyższą niedogodność powstał **Markdown**  - uproszczony język znaczników służący do formatowania dokumentów tekstowych (bez konieczności używania specjalizowanych narzędzi). Dokumenty w tym formacie można bardzo łatwo konwertować do wielu innych formatów: np. html, pdf, ps (postscript), epub, xml i wiele innych. Format ten jest powszechnie używany do tworzenia plików README.md (w projektach open source) i powszechnie obsługiwany przez serwery git’a. Język ten został stworzony w 2004 r. a jego twórcami byli John Gruber i Aaron Swartz. W kolejnych latach podjęto prace w celu stworzenia standardu rozwiązania i tak w 2016 r. opublikowano dokument RFC 7764 który zawiera opis kilku odmian tegoż języka:
 
-CommonMark,  
+* CommonMark,  
 
-GitHub Flavored Markdown (GFM),
+* GitHub Flavored Markdown (GFM),
 
- Markdown Extra.
+* Markdown Extra. 
+
+  
 
 ## Podstawy składni
 
@@ -54,16 +54,18 @@ Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znak
 [1]: http://google,com
 
 ### Obrazki
+
 ![alt text](https://server.com/images/icon48.png "Logo 1") – obrazek z zasobów
 internetowych
 ![](logo.png) – obraz z lokalnych zasobów
+
 ### Kod źródłowy dla różnych języków programowania
 ### Tworzenie spisu treści na podstawie nagłówków
 ## Edytory dedykowane
 Pracę nad dokumentami w formacie Markdown( rozszerzenie md) można wykonywać w
 dowolnym edytorze tekstowym. Aczkolwiek istnieje wiele dedykowanych narzędzi:
-Edytor Typora - https://typora.io/
-Visual Studio Code z wtyczką „markdown preview”
+1. Edytor Typora - https://typora.io/
+2. Visual Studio Code z wtyczką „markdown preview”
 ## Pandoc – system do konwersji dokumentów Markdown do innych formatów
 Jest oprogramowanie typu open source służące do konwertowania dokumentów pomiędzy
 różnymi formatami.
@@ -74,7 +76,7 @@ Jeżeli chcemy konwertować do formatu latex i pdf trzeba doinstalować oprogram
 składu Latex (np. Na MS Windows najlepiej sprawdzi się Miktex - https://miktex.org/)
 Gdyby podczas konwersji do formatu pdf pojawił się komunikat o niemożliwości
 znalezienia programu pdflatex rozwiązaniem jest wskazanie w zmiennej środowiskowej
-PATH miejsca jego położenia
+**PATH** miejsca jego położenia
 
 Pod adresem (https://gitlab.com/mniewins66/templatemn.git) znajduje się przykładowy plik
 Markdown z którego można wygenerować prezentację w formacie pdf wykorzystując
